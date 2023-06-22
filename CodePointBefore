@@ -1,0 +1,12 @@
+package com.employee;
+
+public class Main {
+
+	public static void main(String args[]) {
+	String name="Anusha";
+	//codePointBefore index take index value and returns the index value before the index-1
+	//if we give the value above the length it returns StringIndexOutofBoundsException
+	System.out.println(name.codePointBefore(7));
+	
+	}
+	}
